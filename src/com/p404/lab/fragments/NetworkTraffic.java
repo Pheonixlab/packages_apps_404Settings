@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aospa.lab.fragments;
+package com.p404.lab.fragments;
 
 import android.os.Bundle;
 import android.provider.Settings;
@@ -31,8 +31,8 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.aospa.support.preferences.SystemSettingListPreference;
-import com.aospa.support.preferences.SystemSettingSeekBarPreference;
+import com.p404.support.preferences.SystemSettingListPreference;
+import com.p404.support.preferences.SystemSettingSeekBarPreference;
 
 public class NetworkTraffic extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -65,6 +65,6 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSPA;
+        return MetricsProto.MetricsEvent.P404;
     }
 }

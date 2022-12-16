@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aospa.lab.fragments;
+package com.p404.lab.fragments;
 
 import android.os.Bundle;
 
@@ -41,6 +41,6 @@ public class BrightnessSliderSettings extends SettingsPreferenceFragment impleme
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSPA;
+        return MetricsProto.MetricsEvent.P404;
     }
 }

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.aospa.lab;
+package com.p404.lab;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +29,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class ParanoidLab extends SettingsPreferenceFragment {
+public class Project404Lab extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.paranoid_lab);
+        addPreferencesFromResource(R.xml.project404_lab);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSPA;
+        return MetricsProto.MetricsEvent.P404;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

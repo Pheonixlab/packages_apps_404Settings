@@ -19,14 +19,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!-- Network Traffic -->
-        <com.aospa.support.preferences.SystemSettingMasterSwitchPreference
+        <com.p404.support.preferences.SystemSettingMasterSwitchPreference
             android:key="network_traffic_state"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
-            android:fragment="com.aospa.lab.fragments.NetworkTraffic"
+            android:fragment="com.p404.lab.fragments.NetworkTraffic"
             android:defaultValue="false" />
 
-    <com.aospa.support.preferences.SystemSettingSwitchPreference
+    <com.p404.support.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/double_tap_sleep_title"
             android:summary="@string/double_tap_sleep_summary"

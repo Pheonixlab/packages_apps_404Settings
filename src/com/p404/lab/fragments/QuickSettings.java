@@ -1,4 +1,4 @@
-package com.aospa.lab.fragments;
+package com.p404.lab.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -21,7 +21,7 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.aospa.support.preferences.SecureSettingMasterSwitchPreference;
+import com.p404.support.preferences.SecureSettingMasterSwitchPreference;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -67,7 +67,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSPA;
+        return MetricsProto.MetricsEvent.P404;
     }
 
 }

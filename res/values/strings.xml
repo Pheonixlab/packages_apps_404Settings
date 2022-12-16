@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="paranoid_lab_title">Paranoid Lab</string>
+    <string name="project404_lab_title">404 Lab</string>
 
     <!-- Categories -->
     <string name="lockscreen_title">Lock screen</string>

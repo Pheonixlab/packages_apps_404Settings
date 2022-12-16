@@ -1,4 +1,4 @@
-package com.aospa.lab.fragments;
+package com.p404.lab.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -37,7 +37,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-import com.aospa.support.preferences.SystemSettingMasterSwitchPreference;
+import com.p404.support.preferences.SystemSettingMasterSwitchPreference;
 
 public class StatusBarSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -74,7 +74,7 @@ private SystemSettingMasterSwitchPreference mNetworkTraffic;
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSPA;
+        return MetricsProto.MetricsEvent.P404;
     }
 
 }

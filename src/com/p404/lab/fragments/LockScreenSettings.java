@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.aospa.lab.fragments;
+package com.p404.lab.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -60,7 +60,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSPA;
+        return MetricsProto.MetricsEvent.P404;
     }
 
 }
