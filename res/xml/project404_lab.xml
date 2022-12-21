@@ -19,12 +19,12 @@
     android:title="@string/project404_lab_title" >
     
     <com.android.settingslib.widget.TopIntroPreference
-            android:key="pa_illustration_desc"
+            android:key="p404_illustration_desc"
             android:order="-999"
-            android:title="@string/pa_illustration_summary"/>
+            android:title="@string/p404_illustration_summary"/>
 
         <com.android.settingslib.widget.IllustrationPreference
-            android:key="pa_illustration"
+            android:key="p404_illustration"
             android:order="-998"
             app:lottie_rawRes="@raw/lab"/>
 
@@ -34,7 +34,7 @@
           android:summary="@string/statusbar_settings_summary"
           android:fragment="com.p404.lab.fragments.StatusBarSettings"
 	      settings:layout="@layout/top_level_card"
-          android:icon="@drawable/pa_settings_statusbar"/>
+	     android:icon="@drawable/p404_settings_statusbar"/>
           
   <Preference
           android:key="quicksettings_category"
@@ -42,7 +42,7 @@
           android:summary="@string/qs_panel_settings_summary"
           android:fragment="com.p404.lab.fragments.QuickSettings"
 	      settings:layout="@layout/top_level_card"
-          android:icon="@drawable/pa_settings_quicksettings"/>
+          android:icon="@drawable/p404_settings_quicksettings.xml"/>
           
   <Preference
             android:key="gestures_category"
@@ -51,11 +51,11 @@
             android:fragment="com.android.settings.gestures.GestureSettings"
             settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"
             settings:layout="@layout/top_level_card"
-            android:icon="@drawable/pa_settings_gestures"/>
+            android:icon="@drawable/p404_settings_gestures.xml"/>
             
   <PreferenceScreen
         android:key="gaming_category"
-        android:icon="@drawable/pa_settings_gamespace"
+        android:icon="@drawable/p404_settings_gamespace.xml"
         android:title="@string/game_space_title"
         android:summary="@string/game_space_summary"
         settings:layout="@layout/top_level_card" >
@@ -71,7 +71,7 @@
           android:summary="@string/lockscreen_settings_summary"
           android:fragment="com.p404.lab.fragments.LockScreenSettings"
 	      settings:layout="@layout/top_level_card"
-          android:icon="@drawable/pa_settings_lockscreens"/>
+          android:icon="@drawable/p404_settings_lockscreens.xml"/>
           
     <Preference
           android:key="misc_category"
@@ -79,6 +79,6 @@
           android:summary="@string/misc_settings_summary"
           android:fragment="com.p404.lab.fragments.MiscSettings"
 	      settings:layout="@layout/top_level_card"
-          android:icon="@drawable/pa_settings_miscs"/>      
+          android:icon="@drawable/p404_settings_miscs.xml"/>      
 
 </PreferenceScreen>
