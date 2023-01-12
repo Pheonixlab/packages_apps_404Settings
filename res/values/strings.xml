@@ -78,4 +78,8 @@
     <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
     <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+
+    <!-- Ripple Effect on lockscreen -->
+    <string name="disable_fingerprint_ripple_effect_title">Disable Ripple effect</string>
+    <string name="disable_fingerprint_ripple_effect_summary">Disable ripple effect on unlock</string>
 </resources>
