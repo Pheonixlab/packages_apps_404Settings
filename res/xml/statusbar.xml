@@ -19,7 +19,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!-- Network Traffic -->
-        <com.p404.support.preferences.SystemSettingMasterSwitchPreference
+    <com.p404.support.preferences.SystemSettingMasterSwitchPreference
             android:key="network_traffic_state"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
@@ -31,4 +31,10 @@
             android:title="@string/double_tap_sleep_title"
             android:summary="@string/double_tap_sleep_summary"
             android:defaultValue="false" />
+
+    <com.p404.support.preferences.SystemSettingSwitchPreference
+         android:key="statusbar_icons_style"
+         android:title="@string/statusbar_icons_style"
+         android:summary="@string/statusbar_icons_style_summary"
+         android:defaultValue="true" />
 </PreferenceScreen>
